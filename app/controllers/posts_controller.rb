@@ -3,9 +3,8 @@ class PostsController < ApplicationController
 
 	def index
 		posts = Post.all
-
 		respond_with(posts) do |format|
-			format.json {render :json => posts.as_json}
+			format.json { render :json => posts.as_json}
 		end
 	end
 end

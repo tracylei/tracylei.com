@@ -1,5 +1,31 @@
 <div ng-app="personalSite">
-  <div class="view-container">
-    <div ng-view class="view-frame animate-view"></div>
-  </div>
+  	<div class="view-container">
+	 	<div id="wrapper">
+			<nav id="sidebar-wrapper">
+				<ul class="sidebar-nav">
+					<li class="sidebar-logo">
+						<a href="#">
+							<img src="profile.jpg" class="img-responsive img-circle	">
+						</a>
+					</li>
+					<li>
+						<a href="#">About Me</a>
+					</li>
+					<li>
+						<a href="#">Projects</a>
+					</li>
+					<li>
+						<a href="#">Blog</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		
+		<div ng-view></div>
+
+		
+		</div>
+ 	<div>
 </div>
