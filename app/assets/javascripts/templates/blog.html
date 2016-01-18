@@ -1,4 +1,7 @@
-<div ng-repeat="post in posts">
-  <h1>{{post.title}}</h1>
-  <p>{{post.contents}}</p>
-</div>
+<header>
+	<h1 class="text-center">{{data.postId}} - {{data.postData.posts[data.postId-1].title }}</h1>
+</header>
+
+<body>
+	<p class="container-fluid content">{{data.postData.posts[data.postId-1].contents }}</p>
+</body>

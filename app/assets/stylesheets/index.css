@@ -1,9 +1,10 @@
 #wrapper {
     padding-left: 0;
-    -webkit-transition: all 0.5s ease;
+    background: none;
+/*    -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease;*/
 }
 
 #wrapper.toggled {
@@ -18,11 +19,11 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #000;
-    -webkit-transition: all 0.5s ease;
+    background: none;
+/*    -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease;*/
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -55,6 +56,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    background: none;
 }
 
 .sidebar-nav li {
