@@ -41706,7 +41706,7 @@ angular.module('personalSite',[
 // source: app/assets/javascripts/templates/blog.html
 
 angular.module("templates").run(["$templateCache", function($templateCache) {
-  $templateCache.put("blog.html", '<header>\n	<h1 class="text-center">{{data.postId}} - {{data.postData.posts[data.postId-1].title }}</h1>\n</header>\n\n<body>\n	<p class="container-fluid content">{{data.postData.posts[data.postId-1].contents }}</p>\n</body>')
+  $templateCache.put("blog.html", '\n<div>\n<header>\n	<h1 class="post-title text-center">{{data.postId}} - {{data.postData.posts[data.postId-1].title }}</h1>\n</header>\n\n<body>\n	<div class="post-content">{{data.postData.posts[data.postId-1].contents }}</div>\n</body>\n</div>')
 }]);
 
 // Angular Rails Template
