@@ -12,7 +12,7 @@ angular.module('personalSite',[
         controller : 'MainCtrl',
       })
       .when('/blog/:postId', {
-        templateUrl: 'blog.html',
+        templateUrl: 'post.html',
         controller : 'BlogCtrl',
       })
       .when('/projects',{
