@@ -15,6 +15,13 @@ angular.module('personalSite',[
         templateUrl: 'blog.html',
         controller : 'BlogCtrl',
       })
+      .when('/projects',{
+      	templateUrl: 'projects.html'
+      	//Create projects model
+      })
+      .when('/contact', {
+      	templateUrl: 'contact.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
