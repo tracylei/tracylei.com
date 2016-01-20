@@ -1,6 +1,18 @@
 .project-description{
 	padding: 25px;
 }
+#lora {
+    font-family: 'Lora', serif;
+}
+
+#redvelvet {
+    font-family: "Red Velvet Regular";
+}
+
+#intro {
+    font-family: "Red Velvet Regular";
+}
+
 #wrapper {
     padding-left: 0;
     background: none;
@@ -8940,4 +8952,10 @@ button.close {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: justify;
+  font-family: 'Lora', serif;
+}
+
+@font-face {
+  font-family: "Red Velvet Regular";
+  src: url(/assets/RedVelvet-Regular.otf) format("truetype");
 }

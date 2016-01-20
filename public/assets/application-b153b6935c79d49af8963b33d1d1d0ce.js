@@ -41727,7 +41727,7 @@ angular.module("templates").run(["$templateCache", function($templateCache) {
 // source: app/assets/javascripts/templates/index.html
 
 angular.module("templates").run(["$templateCache", function($templateCache) {
-  $templateCache.put("index.html", '<div>\n\n	<h1 class="title" style="margin-left:10%;">Hi, I\'m \n		<span style="color:#CE1076;">Tracy</span>. \n	</h1>\n	<p class="content">\n		I am currently a Computer Science undergrad at the University of Waterloo (expected graduation in spring 2018). I have had the most experience with C/C++ and Java but have also worked with JavaScript, HTML/CSS, Ruby, Python and Scheme. Feel free to check out my projects and past experiences. \n	</p>\n\n\n\n<div>')
+  $templateCache.put("index.html", '<div>\n\n	<h1 class="title" id="intro" style="margin-left:10%;">Hi, I\'m \n		<span style="color:#CE1076" id="intro">Tracy</span>. \n	</h1>\n	<p class="content">\n		I am currently a Computer Science undergrad at the University of Waterloo (expected graduation in spring 2018). I have had the most experience with C/C++ and Java but have also worked with JavaScript, HTML/CSS, Ruby, Python and Scheme. Feel free to check out my projects and past experiences. \n	</p>\n\n\n\n<div>')
 }]);
 
 // Angular Rails Template
