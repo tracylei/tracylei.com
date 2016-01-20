@@ -11,6 +11,7 @@
 
 #intro {
     font-family: "Red Velvet Regular";
+    font-size: 40px;
 }
 
 #wrapper {
@@ -8939,13 +8940,28 @@ button.close {
     display: none !important;
   }
 }
-/* line 21, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
-.title {
-  margin-top: 0;
-  padding-top: 15%;
+/* line 20, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
+p {
+  margin: 0 0 10px;
 }
 
-/* line 26, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
+/* line 24, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
+.title-left {
+  margin-top: 0;
+  padding-top: 15%;
+  margin-left: 10%;
+  font-family: "Red Velvet Regular";
+}
+
+/* line 31, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
+.title-center {
+  margin-top: 0;
+  padding-top: 15%;
+  font-family: "Red Velvet Regular";
+  text-align: center;
+}
+
+/* line 38, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
 .content {
   margin-left: 10%;
   margin-right: 10%;

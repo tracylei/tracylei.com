@@ -16,10 +16,22 @@
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap-sprockets";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap";
 
+p {
+    margin: 0 0 10px;
+}
 
-.title{
+.title-left{
 	margin-top: 0;
 	padding-top: 15%;
+	margin-left: 10%;
+	font-family: "Red Velvet Regular";
+}
+
+.title-center{
+	margin-top: 0;
+	padding-top: 15%;
+	font-family: "Red Velvet Regular";
+	text-align: center;
 }
 
 .content{

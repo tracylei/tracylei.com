@@ -41720,28 +41720,28 @@ angular.module('personalSite',[
 // source: app/assets/javascripts/templates/contact.html
 
 angular.module("templates").run(["$templateCache", function($templateCache) {
-  $templateCache.put("contact.html", "")
+  $templateCache.put("contact.html", '<div>\n	<h1 class="title-left">Contact me</h1>\n	<p class="content">Send me a message at tracylei.yq@gmail.com if you have a question, would like a copy of my resume, or just want to say hello!</p>\n\n</div>')
 }]);
 
 // Angular Rails Template
 // source: app/assets/javascripts/templates/index.html
 
 angular.module("templates").run(["$templateCache", function($templateCache) {
-  $templateCache.put("index.html", '<div>\n\n	<h1 class="title" id="intro" style="margin-left:10%;">Hi, I\'m \n		<span style="color:#CE1076" id="intro">Tracy</span>. \n	</h1>\n	<p class="content">\n		I am currently a Computer Science undergrad at the University of Waterloo (expected graduation in spring 2018). I have had the most experience with C/C++ and Java but have also worked with JavaScript, HTML/CSS, Ruby, Python and Scheme. Feel free to check out my projects and past experiences. \n	</p>\n\n\n\n<div>')
+  $templateCache.put("index.html", '<div>\n\n	<h1 class="title-left" id="intro">Hi, I\'m \n		<span style="color:#CE1076" id="intro">Tracy</span>. \n	</h1>\n	<p class="content">\n		I am currently a Computer Science undergrad at the University of Waterloo (expected graduation in spring 2018). I have had the most experience with C/C++ and Java but have also worked with JavaScript, HTML/CSS, Ruby, Python and Scheme. \n	</p>\n	<p class="content">\n		When I\'m not coding, you might find me enjoying board games with friends (most likely Avalon or Coup), playing the piano, or working on a client engagement with <a href="http://www.aceconsultinggroup.ca">ACE Consulting Group</a>!\n	</p>\n	<p class="content">\n		Feel free to poke around my website to learn more about my projects and past experiences. \n	</p>\n\n<div>')
 }]);
 
 // Angular Rails Template
 // source: app/assets/javascripts/templates/post.html
 
 angular.module("templates").run(["$templateCache", function($templateCache) {
-  $templateCache.put("post.html", '\n<div>\n<header>\n	<h1 class="title text-center">{{data.postData.posts[data.postId-1].title }}</h1>\n</header>\n\n<body>\n	<div class="content">{{data.postData.posts[data.postId-1].contents }}</div>\n</body>\n</div>')
+  $templateCache.put("post.html", '\n<div>\n<header>\n	<h1 class="title-center">{{data.postData.posts[data.postId-1].title }}</h1>\n</header>\n\n<body>\n	<div class="content">{{data.postData.posts[data.postId-1].contents }}</div>\n</body>\n</div>')
 }]);
 
 // Angular Rails Template
 // source: app/assets/javascripts/templates/projects.html
 
 angular.module("templates").run(["$templateCache", function($templateCache) {
-  $templateCache.put("projects.html", '<div class="container-fluid bg-3 text-center">    \n  <h1 class="title">Projects</h1><br>\n  <div class="row">\n    <div class="col-md-4">\n      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">\n      <p>Description</p>\n    </div>\n    <div class="col-md-4"> \n      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">\n      <p>Description</p>\n    </div>\n    <div class="col-md-4"> \n      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">\n      <p>Description</p>\n    </div>\n  </div>\n</div><br>')
+  $templateCache.put("projects.html", '<div class="container-fluid bg-3 text-center">    \n  <h1 class="title-center">Projects</h1><br>\n  <span>\n  <div class="row">\n    <div class="col-md-4">\n      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">\n      <p>Description</p>\n    </div>\n    <div class="col-md-4"> \n      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">\n      <p>Description</p>\n    </div>\n    <div class="col-md-4"> \n      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">\n      <p>Description</p>\n    </div>\n  </div>\n</div><br>')
 }]);
 
 // This is a manifest file that'll be compiled into application.js, which will include all the files
