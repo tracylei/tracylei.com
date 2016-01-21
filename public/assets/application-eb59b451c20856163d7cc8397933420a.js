@@ -41720,7 +41720,7 @@ angular.module('personalSite',[
 // source: app/assets/javascripts/templates/contact.html
 
 angular.module("templates").run(["$templateCache", function($templateCache) {
-  $templateCache.put("contact.html", '<div>\n	<h1 class="title-left" style="padding-top:20%;">Contact me</h1>\n	<p class="content">Send me a message at tracylei.yq@gmail.com if you have a question, would like a copy of my resume, or just want to say hello!\n	</p>\n</div>\n<div id="icons" class="float_center">\n<ul>\n<li>\n   <a href="https://www.linkedin.com/in/tracylei" title="linkedin" target="_blank">\n      <i class="fa fa-linkedin-square"></i>\n   </a>\n</li>\n\n<li>\n   <a href="https://github.com/tracylei" title="github" target="_blank">\n      <i class="fa fa-github"></i>\n   </a>\n</li>\n\n<li>\n   <a href="https://www.facebook.com/tracyleii" title="facebook" target="_blank">\n      <i class="fa fa-facebook-square"></i>\n   </a>\n</li>\n</ul>')
+  $templateCache.put("contact.html", '<div>\n	<h1 class="title-left" style="padding-top:20%;">Contact me</h1>\n	<p class="content">Send me a message at tracylei.yq@gmail.com if you have a question, would like a copy of my resume, or just want to say hello!\n	</p>\n</div>')
 }]);
 
 // Angular Rails Template
