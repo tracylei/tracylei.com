@@ -15,6 +15,55 @@
  */
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap-sprockets";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+/* Contact */
+
+.fa {
+	display: inline;
+}
+
+.float_center{
+	float: right;
+	position: relative;
+	left: -50%;
+	text-align: left;
+}
+
+#icons ul {
+	overflow: auto;
+	position: relative;
+  	left: 50%;
+}
+
+#icons ul li {
+	list-style-type: none;
+	float: right;
+	display: block;
+}
+
+#icons ul li a{
+	text-decoration: none;
+}
+
+#icons ul li a i {
+	width: 40px;
+	height: 40px;
+	font-size: 40px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+	color:#FF0080;
+	transition: all 0.2s ease-in-out;
+}
+
+#icons ul li a i:hover {
+	color: #CD1076;
+}
+
+
+/* Main Styles */
 
 p {
     margin: 0 0 10px;

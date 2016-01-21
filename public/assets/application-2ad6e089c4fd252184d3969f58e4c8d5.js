@@ -41720,14 +41720,14 @@ angular.module('personalSite',[
 // source: app/assets/javascripts/templates/contact.html
 
 angular.module("templates").run(["$templateCache", function($templateCache) {
-  $templateCache.put("contact.html", '<div>\n	<h1 class="title-left">Contact me</h1>\n	<p class="content">Send me a message at tracylei.yq@gmail.com if you have a question, would like a copy of my resume, or just want to say hello!</p>\n\n</div>')
+  $templateCache.put("contact.html", '<div>\n	<h1 class="title-left" style="padding-top:20%;">Contact me</h1>\n	<p class="content">Send me a message at tracylei.yq@gmail.com if you have a question, would like a copy of my resume, or just want to say hello!\n	</p>\n</div>\n<div id="icons" class="float_center">\n<ul>\n<li>\n   <a href="https://www.linkedin.com/in/tracylei" title="linkedin" target="_blank">\n      <i class="fa fa-linkedin-square"></i>\n   </a>\n</li>\n\n<li>\n   <a href="https://github.com/tracylei" title="github" target="_blank">\n      <i class="fa fa-github"></i>\n   </a>\n</li>\n\n<li>\n   <a href="https://www.facebook.com/tracyleii" title="facebook" target="_blank">\n      <i class="fa fa-facebook-square"></i>\n   </a>\n</li>\n</ul>')
 }]);
 
 // Angular Rails Template
 // source: app/assets/javascripts/templates/index.html
 
 angular.module("templates").run(["$templateCache", function($templateCache) {
-  $templateCache.put("index.html", '<div>\n\n	<h1 class="title-left" id="intro">Hi, I\'m \n		<span style="color:#CE1076" id="intro">Tracy</span>. \n	</h1>\n	<p class="content">\n		I am currently a Computer Science undergrad at the University of Waterloo (expected graduation in spring 2018). I have had the most experience with C/C++ and Java but have also worked with JavaScript, HTML/CSS, Ruby, Python and Scheme. \n	</p>\n	<p class="content">\n		When I\'m not coding, you might find me enjoying board games with friends (most likely Avalon or Coup), playing the piano, or working on a client engagement with <a href="http://www.aceconsultinggroup.ca">ACE Consulting Group</a>!\n	</p>\n	<p class="content">\n		Feel free to poke around my website to learn more about my projects and past experiences. \n	</p>\n\n<div>')
+  $templateCache.put("index.html", '<div>\n\n	<h1 class="title-left" id="intro">Hi, I\'m \n		<span style="color:#CE1076" id="intro">Tracy</span>. \n	</h1>\n	<p class="content">\n		I am currently a Computer Science undergrad at the University of Waterloo (expected graduation in spring 2018). I have had the most experience with C/C++ and Java but have also worked with JavaScript, HTML/CSS, Ruby, Python and Scheme. I have an insatiable appetite for learning and never shy away from a challenge. I\'m excited to apply the skill set I\'ve built to make a lasting impact on the world.\n	</p>\n	<p class="content">\n		Outside of work/school, you might find me enjoying board games with friends (most likely Avalon or Coup), playing the piano, or working on a client engagement with <a href="http://www.aceconsultinggroup.ca">ACE Consulting Group</a>!\n	</p>\n	<p class="content">\n		Feel free to poke around my website to learn more about my projects and past experiences. \n	</p>\n\n<div>		')
 }]);
 
 // Angular Rails Template

@@ -36,6 +36,7 @@ gem 'bower-rails'
 gem 'angular-rails-templates'
 gem 'sprockets', '2.12.3'
 gem 'responders', '~> 2.0'
+gem 'font-awesome-sass'
 
 gem "foreman"
 group :production, :staging do
