@@ -92,7 +92,13 @@ p {
 	font-family: 'Lora', serif;
 }
 
-@font-face{
-    font-family: "Red Velvet Regular";
-    src: url(/assets/RedVelvet-Regular.otf) format("truetype");
+@font-face {
+  font-family: 'Red Velvet Regular';
+  src: font-url("redvelvet-regular-webfont.eot");
+  src: font-url("redvelvet-regular-webfont.eot?#iefix") format("embedded-opentype"), 
+  		font-url("redvelvet-regular-webfont.svg#icomoon") format("svg"), 
+  		font-url("redvelvet-regular-webfont.woff") format("woff"), 
+  		font-url("redvelvet-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }

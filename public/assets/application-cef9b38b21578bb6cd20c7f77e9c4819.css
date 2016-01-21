@@ -12383,6 +12383,9 @@ p {
 }
 
 @font-face {
-  font-family: "Red Velvet Regular";
-  src: url(/assets/RedVelvet-Regular.otf) format("truetype");
+  font-family: 'Red Velvet Regular';
+  src: url(/assets/redvelvet-regular-webfont-33d5e4092f5bc6d29a449e4bbd5a4956.eot);
+  src: url(/assets/redvelvet-regular-webfont-33d5e4092f5bc6d29a449e4bbd5a4956.eot?#iefix) format("embedded-opentype"), url(/assets/redvelvet-regular-webfont-cefa24cf1780d4425b1fa47659fae0e5.svg#icomoon) format("svg"), url(/assets/redvelvet-regular-webfont-f7b656b4a9fba6be471e078ddf3e9329.woff) format("woff"), url(/assets/redvelvet-regular-webfont-40eed6bbd0ec08b6be184587f3a22a5b.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
