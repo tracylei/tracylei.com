@@ -83,7 +83,7 @@
     color: #FFFFFF;
     text-align: right;
     margin-right: 10%;
-    -webkit-text-stroke: .002px #000;
+    -webkit-text-stroke: .1px #7e7e7e;
 }
 
 .sidebar-nav li a:hover {
