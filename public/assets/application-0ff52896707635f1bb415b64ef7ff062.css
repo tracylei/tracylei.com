@@ -12328,24 +12328,23 @@ button.close {
 
 /* line 35, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
 #icons ul {
-  overflow: auto;
   position: relative;
   left: 50%;
 }
 
-/* line 41, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
+/* line 40, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
 #icons ul li {
   list-style-type: none;
   float: right;
   display: block;
 }
 
-/* line 47, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
+/* line 46, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
 #icons ul li a {
   text-decoration: none;
 }
 
-/* line 51, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
+/* line 50, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
 #icons ul li a i {
   width: 40px;
   height: 40px;
@@ -12357,18 +12356,18 @@ button.close {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 62, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
+/* line 61, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
 #icons ul li a i:hover {
   color: #CD1076;
 }
 
 /* Main Styles */
-/* line 69, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
+/* line 68, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
 p {
   margin: 0 0 10px;
 }
 
-/* line 73, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
+/* line 72, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
 .title-left {
   margin-top: 0;
   padding-top: 15%;
@@ -12376,7 +12375,7 @@ p {
   font-family: "Red Velvet Regular";
 }
 
-/* line 80, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
+/* line 79, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
 .title-center {
   margin-top: 0;
   padding-top: 15%;
@@ -12384,7 +12383,7 @@ p {
   text-align: center;
 }
 
-/* line 87, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
+/* line 86, /Users/tracylei/Dropbox/_Personal Projects/tracylei/app/assets/stylesheets/application.css.scss */
 .content {
   margin-left: 10%;
   margin-right: 10%;
