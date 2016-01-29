@@ -47,19 +47,23 @@ angular.module('personalSite',[
 
 		postData.loadPosts();
 
-		console.log($scope.data.postData.posts);
-		console.log($scope.data.postId);
-		console.log($scope.data.postData.posts[0]);
+		//console.log($scope.data.postData.posts);
+		//console.log($scope.data.postId);
+		//console.log($scope.data.postData.posts[0]);
 
 		$scope.data.postId = $routeParams.postId;
-		console.log($routeParams);
+		//console.log($routeParams);
 
 }])
 
 .controller('ProjectCtrl', function($scope){
-	$scope.showModal = false;
-	$scope.toggleModal = function(){
-		$scope.showModal = !$scope.showModal;
+	$scope.showModal1 = false;
+	$scope.toggleModal1 = function(){
+		$scope.showModal1 = !$scope.showModal1;
+	};
+	$scope.showModal2 = false;
+	$scope.toggleModal2 = function(){
+		$scope.showModal2 = !$scope.showModal2;
 	};
 })
 

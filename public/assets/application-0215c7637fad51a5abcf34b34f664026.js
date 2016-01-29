@@ -43999,19 +43999,23 @@ angular.module('personalSite',[
 
 		postData.loadPosts();
 
-		console.log($scope.data.postData.posts);
-		console.log($scope.data.postId);
-		console.log($scope.data.postData.posts[0]);
+		//console.log($scope.data.postData.posts);
+		//console.log($scope.data.postId);
+		//console.log($scope.data.postData.posts[0]);
 
 		$scope.data.postId = $routeParams.postId;
-		console.log($routeParams);
+		//console.log($routeParams);
 
 }])
 
 .controller('ProjectCtrl', function($scope){
-	$scope.showModal = false;
-	$scope.toggleModal = function(){
-		$scope.showModal = !$scope.showModal;
+	$scope.showModal1 = false;
+	$scope.toggleModal1 = function(){
+		$scope.showModal1 = !$scope.showModal1;
+	};
+	$scope.showModal2 = false;
+	$scope.toggleModal2 = function(){
+		$scope.showModal2 = !$scope.showModal2;
 	};
 })
 
@@ -44140,7 +44144,7 @@ angular.module("templates").run(["$templateCache", function($templateCache) {
 // source: app/assets/javascripts/templates/projects.html
 
 angular.module("templates").run(["$templateCache", function($templateCache) {
-  $templateCache.put("projects.html", '<div class="container-fluid bg-3 text-center">    \n  <h1 class="title-center">Projects</h1><br>\n  <span>\n  <div class="row">\n    <div class="col-md-4">\n      <img src="proj1.png" class="img-responsive img-thumbnail" style="width:100%" alt="Image">\n      <h4 class="project-title" style="padding-top=5%;padding-bottom=5%;">Personal Website</h4>\n      <p class="project-description">\n        <br>\n        Built to learn <b>Ruby on Rails</b> and <b>AngularJS</b> as well as testing tools such as RSpec and Capybara. Implemented a RESTful API using Rails to load posts and comments. Worked with AngularJS services, directives and applied the concepts of transclusion and dependency injection. \n        <br>\n        <button ng-click="toggleModal()" class="btn btn-warning">Show details</button>\n        <modal title="Personal Website" visible="showModal">\n          <img src="proj1.png" class="img-responsive img-thumbnail" style="width:100%" alt="Image">\n          <b> Language(s): </b>\n          Ruby, Javascript, HTML/CSS\n          <br>\n          <b>Tool(s) & Framework(s):</b>\n           Ruby on Rails (back-end), Rspec (testing), AngularJS (front-end), jQuery(front-end), Postgres (database)\n          <br>\n          <b>Source code:</b><a href="https://github.com/tracylei/tracylei"> Personal Website</a>\n        </modal>\n\n\n      </p>\n    </div>\n    <div class="col-md-4"> \n      <img src="proj2.png" class="img-responsive img-thumbnail" style="width:100%" alt="Image">\n      <h4 class="project-title" style="padding-top=5%;padding-bottom=5%;">Building Buyer</h4>\n      <p class="project-description">\n        <br>\n        <b> Language(s): </b>\n         C++\n        <br>\n        <b>Description:</b>\n        Monopoly-styled game built using the MVC architecture; practiced implementing and various design patterns (i.e. singleton, decorator) \n        <br>\n        <b>Source code:</b><a href="https://github.com/tracylei/buildingbuyer"> Building Buyer</a>        \n      </p>\n    </div>\n    <div class="col-md-4"> \n      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive img-thumbnail" style="width:100%;"height="" alt="Image">\n      <p>Description</p>\n    </div>\n  </div>\n</div><br>')
+  $templateCache.put("projects.html", '<div class="container-fluid bg-3 text-center">    \n  <h1 class="title-center">Projects</h1><br>\n  <span>\n  <div class="row">\n    <div class="col-md-4">\n      <img src="proj1.png" class="img-responsive img-thumbnail" style="width:100%" alt="Image">\n      <h4 class="project-title" style="padding-top=5%;padding-bottom=5%;">Personal Website</h4>\n      <p class="project-description">\n        <br>\n        Built to learn <b>Ruby on Rails</b> and <b>AngularJS</b> as well as familiarize myself with testing tools such as RSpec and Capybara. Implemented a RESTful API using Rails to load posts and comments. Worked with AngularJS services, directives and applied the concepts of transclusion and dependency injection. \n        <br>\n\n        <button ng-click="toggleModal1()" class="btn btn-warning">Show details</button>\n        <modal title="Personal Website" visible="showModal1">\n          <img src="proj1.png" class="img-responsive img-thumbnail" style="width:100%" alt="Image">\n          <b> Language(s): </b>\n          Ruby, Javascript, HTML/CSS\n          <br>\n          <b>Tool(s) & Framework(s):</b>\n           Ruby on Rails (back-end), Rspec (testing), AngularJS (front-end), jQuery(front-end), Postgres (database)\n          <br>\n          <b>Source code:</b><a href="https://github.com/tracylei/tracylei"> Personal Website</a>\n        </modal>\n\n      </p>\n    </div>\n    <div class="col-md-4"> \n      <img src="proj2.png" class="img-responsive img-thumbnail" style="width:100%" alt="Image">\n      <h4 class="project-title" style="padding-top=5%;padding-bottom=5%;">Building Buyer</h4>\n      <p class="project-description">\n        <br>\n        <b>Description:</b>\n        Monopoly-styled game built using the MVC architecture; practiced implementing various design patterns (i.e. singleton, decorator) \n        <br>\n\n        <button ng-click="toggleModal2()" class="btn btn-warning">Show details</button>\n        <modal title="Personal Website" visible="showModal2">\n          <img src="proj2.png" class="img-responsive img-thumbnail" style="width:100%" alt="Image">\n          <b> Language(s): </b>\n         C++\n          <br>\n          <b>Source code:</b><a href="https://github.com/tracylei/buildingbuyer"> Building Buyer</a>\n        </modal>\n\n      </p>\n    </div>\n    <div class="col-md-4"> \n      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive img-thumbnail" style="width:100%;"height="" alt="Image">\n      <p>Description</p>\n    </div>\n  </div>\n</div><br>')
 }]);
 
 // This is a manifest file that'll be compiled into application.js, which will include all the files
