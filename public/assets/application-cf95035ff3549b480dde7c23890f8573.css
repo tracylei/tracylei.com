@@ -1,9 +1,5 @@
 .project-description{
-	text-align: left;
-	padding-top: 0;
-	margin-top: 0;
-	margin-left: 5%;
-	margin-right: 5%;
+	text-align: justify;
 	font-family: 'Lora', serif
 }
 .project-title{
@@ -4795,32 +4791,32 @@ a.btn.disabled, fieldset[disabled] a.btn {
 /* line 83, /Users/tracylei/Dropbox/_Personal Projects/tracylei/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-warning {
   color: white;
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  background-color: #ff0080;
+  border-color: #e60073;
 }
 /* line 12, /Users/tracylei/Dropbox/_Personal Projects/tracylei/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:focus, .btn-warning.focus {
   color: white;
-  background-color: #ec971f;
-  border-color: #985f0d;
+  background-color: #cc0066;
+  border-color: #660033;
 }
 /* line 17, /Users/tracylei/Dropbox/_Personal Projects/tracylei/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:hover {
   color: white;
-  background-color: #ec971f;
-  border-color: #d58512;
+  background-color: #cc0066;
+  border-color: #a80054;
 }
 /* line 24, /Users/tracylei/Dropbox/_Personal Projects/tracylei/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
   color: white;
-  background-color: #ec971f;
-  border-color: #d58512;
+  background-color: #cc0066;
+  border-color: #a80054;
 }
 /* line 31, /Users/tracylei/Dropbox/_Personal Projects/tracylei/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:active:hover, .btn-warning:active:focus, .btn-warning:active.focus, .btn-warning.active:hover, .btn-warning.active:focus, .btn-warning.active.focus, .open > .btn-warning.dropdown-toggle:hover, .open > .btn-warning.dropdown-toggle:focus, .open > .btn-warning.dropdown-toggle.focus {
   color: white;
-  background-color: #d58512;
-  border-color: #985f0d;
+  background-color: #a80054;
+  border-color: #660033;
 }
 /* line 39, /Users/tracylei/Dropbox/_Personal Projects/tracylei/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
@@ -4828,12 +4824,12 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 /* line 47, /Users/tracylei/Dropbox/_Personal Projects/tracylei/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled.focus, .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled].focus, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning.focus {
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  background-color: #ff0080;
+  border-color: #e60073;
 }
 /* line 53, /Users/tracylei/Dropbox/_Personal Projects/tracylei/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning .badge {
-  color: #f0ad4e;
+  color: #ff0080;
   background-color: white;
 }
 
