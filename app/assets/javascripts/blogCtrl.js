@@ -5,7 +5,7 @@ angular.module('personalSite')
 .controller("BlogCtrl", ["$scope", "$routeParams", "postData",
 	function($scope, $routeParams, postData){
 	
-		$scope.data = {postData: postData.data};
+		$scope.data = {postData: postData.posts};
 
 		postData.loadPosts();
 
@@ -20,29 +20,26 @@ angular.module('personalSite')
 
 .factory('postData', ['$http', function($http){
 	var postData = {
-		data: {
 			posts: [
 			{
 				title: "Loading...",
 				contents: ""
 			}
-		]},
-		isLoaded: false
+		]
 	};
 
 	postData.loadPosts = function(){
 
-		if(!postData.isLoaded){
-
 			$http.get('./posts.json').success(function(data){
-				postData.data.posts = data;
-				postData.isLoaded = true;
+				postData.posts = data;
 				console.log('Successfully loaded posts.');
 			}).error(function() {
 				console.error('Failed to load posts.');
 			});
-		}
+		
 	};
+
+	//Add create
 
 	return postData;
 }]);

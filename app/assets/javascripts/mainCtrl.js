@@ -5,7 +5,7 @@ angular.module('personalSite')
 .controller("MainCtrl", ["$scope", "$location", "$http", "postData",
 	function($scope, $location, $http, postData){
 
-	$scope.data = postData.data;
+	$scope.data = postData.posts;
 
 	postData.loadPosts();
 
