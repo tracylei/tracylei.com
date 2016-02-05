@@ -1,2 +1,2 @@
-# Personal Website and Blog
+# Personal Website
 [Visit me :)](http://www.tracylei.com)
